@@ -1,0 +1,82 @@
+*{
+    text-decoration: none;
+}
+.burgerMenuParent{
+    display: flex;
+    width:100%;
+    justify-content: end;
+    padding-top:5px;
+    padding-right:25px;
+    display:none;
+}
+.burgerMenu{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    gap:10px;
+    z-index: 101;
+    color:#EF4B4D;
+    width:70px;
+    height:50px;
+}
+.burgerLine{
+    height: 8px;
+    background-color: #EF4B4D;
+    border-radius: 10px;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: white;
+    padding: 20px 0px 10px 0px;
+    width: 100%;
+    z-index:100
+}
+.muchachos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:70px;
+    padding-bottom: 40px;
+}
+nav{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+
+}
+nav > ul{
+    display: flex;
+    gap:95px;
+}
+.muchachos > h1{
+    color:#EF4B4D;
+    cursor: pointer;
+    font-size:50px;
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  
+}
+
+.muchachos > a{
+    color: #EF4B4D;
+    font-family: "Permanent Marker", serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+.logIn{
+    color:#ef4b4e;
+    padding-right: 10px;
+}
+.changeTheColorOfTheNavLists{
+    color:#EF4B4D;
+}
+.changeTheColorOfTheNavLists:hover{
+    color:#ef4b4e9a;
+    transition: 0.3s;
+}

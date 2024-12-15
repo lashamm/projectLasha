@@ -1,0 +1,60 @@
+.chatDiv {
+  background-color: #EF4B4D;
+  display: inline-block;
+  border-radius: 15px;
+  position: fixed;
+  bottom: 5%;
+  right: 2%;
+  z-index: 9999;
+}
+.chatDiv .chat {
+  font-size: 50px;
+  padding: 10px;
+  cursor: pointer;
+}
+.chatDiv input {
+  display: none;
+}
+
+.chatDiv #zy:checked + label .chatBox {
+  display: flex;
+}
+
+.chatBox {
+  display: none;
+}
+.chatBox .mainForChatBox {
+  background-color: #752223;
+  width: 250px;
+  height: 350px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.chatBox .mainForChatBox .headerForChatBox {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #EF4B4D;
+  border-radius: 10px;
+}
+.chatBox .mainForChatBox .messageForBox {
+  padding: 10px;
+  background-color: #EF4B4D;
+  border-radius: 10px;
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+.chatBox .mainForChatBox .messageForBox i {
+  font-size: 20px;
+  color: #5e1b1d;
+}
+.chatBox .mainForChatBox .messageForBox input {
+  width: 100%;
+  padding: 5px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}/*# sourceMappingURL=chatbox.css.map */

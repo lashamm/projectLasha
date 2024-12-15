@@ -1,0 +1,222 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    scroll-behavior: smooth;
+}
+main{
+    width: 100%;
+    height:25vh;
+    background-image:url(https://static.wixstatic.com/media/11062b_ce3458f81a3e496b8440378bc649802c~mv2.jpg/v1/fill/w_1652,h_240,fp_0.50_0.50,q_85,usm_0.66_1.00_0.01,enc_auto/11062b_ce3458f81a3e496b8440378bc649802c~mv2.jpg) ;
+    margin-top:160px;
+}
+.orderOnline{
+    display: flex;
+    flex-direction: column;
+    padding-left:30px;
+    padding-top:20px;
+    gap:20px;
+    .orderSection1{
+        display: flex;
+        flex-direction: column;
+        gap:20px;
+    }
+    .orderSection2{
+        display: flex;
+        flex-direction: column;
+        gap:20px;
+        .btnsPicDel{
+            display: flex;
+            button{
+                background-color: white;
+                padding: 10px 35px;
+                border: solid 1px;
+            }
+            button:hover{
+                border: solid 1px #EF4B4D ;
+            }
+        }
+        .timeAdress{
+            display: flex;
+            gap:30px;
+            a{
+                color:#EF4B4D;
+                text-decoration:underline;
+            }
+        }
+    }
+}
+
+.TacocAndCocktails{
+    display: flex;
+    gap:15px;
+    padding-left:30px;
+    padding-top:40px;
+    padding-bottom:40px;
+    button{
+        background-color: white;
+        color:black;
+        border: none;
+        cursor: pointer;
+        
+    }
+    button:hover{
+        color: rgba(0, 0, 0, 0.836);
+        border-bottom: #EF4B4D solid 2px;
+    }
+}
+.DinnerMenu{
+    display: flex;
+    flex-direction: column;
+    padding-bottom:40px;
+    gap:5px;
+    padding-left:30px;
+}
+.tacos{
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+    padding-left:30px;
+    .textInTacos{
+        display: flex;
+        flex-direction: column;
+        gap:5px;
+        h4{
+            font-size:30px
+        }
+    }
+    .menuForTacos{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap:20px;
+        padding-bottom:40px;
+        width: 80%;
+        .BeefSteak{
+            border:aqua solid 4px;
+            height:20vh;
+            width:300px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            padding:10px
+            
+        }
+        .SpicySrimps{
+            border:aqua solid 4px;
+            height:20vh;
+            width:300px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            padding:10px
+            
+        }
+        .veggieTacos{
+            border:aqua solid 4px;
+            height:20vh;
+            width:300px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            padding:10px
+        }
+        .ChickenTacos{
+            border:aqua solid 4px;
+            height:20vh;
+            width:300px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            padding:10px
+        }
+    }
+}
+
+
+
+.cocktails{
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+    width:100%;
+    .textInCocktails{
+        display: flex;
+        flex-direction: column;
+        gap:5px;
+        padding-left:30px;
+        h4{
+            font-size:30px
+        }
+    }
+    .menuForCocktails{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap:20px;
+        padding-left:30px;
+        padding-bottom:60px;
+        width: 80%;
+        .Margarita{
+            border:aqua solid 4px;
+            height:20vh;
+            width:300px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            padding:10px
+            
+        }
+        .WatermelonMargita{
+            border:aqua solid 4px;
+            height:20vh;
+            width:300px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            padding:10px
+            
+        }
+        .ClassicMargarita{
+            border:aqua solid 4px;
+            height:20vh;
+            width:300px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            padding:10px
+        }
+        .TequilaSunrise{
+            border:aqua solid 4px;
+            height:20vh;
+            width:300px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            padding:10px
+        }
+    }
+}
+
+
+.socials{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: fixed;
+    top:40%;
+    left:15px;
+    z-index: 10;
+}
+.socials i{
+    font-size:40px;
+    color:#EF4B4D;
+}
+
+
+
+@media screen and ( max-width: 768px ) {
+    
+}

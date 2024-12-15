@@ -1,0 +1,75 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+  scroll-behavior: smooth;
+  color: white;
+}
+
+body {
+  background-color: #EF4B4D;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  font-size: 40px;
+  color: white;
+}
+
+h4 {
+  font-size: 30px;
+  color: white;
+}
+
+main {
+  background-color: #EF4B4D;
+  height: 130vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  color: white;
+}
+main .grandParent .parent {
+  padding: 60px;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  color: white;
+  margin-top: 50px;
+  border: white 4px solid;
+  padding-top: 120px;
+  border-bottom: 0px;
+}
+main .grandParent .parent .tacos {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  color: white;
+  padding: 0;
+}
+main .grandParent .parent .cocktails {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  color: white;
+}
+
+.socials {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  position: fixed;
+  top: 40%;
+  left: 15px;
+  z-index: 10;
+}
+
+.socials i {
+  font-size: 40px;
+  color: black;
+}/*# sourceMappingURL=menu.css.map */
